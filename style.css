@@ -1,0 +1,41 @@
+body {
+	max-width: 750px;
+	margin: auto;
+	background-color: #a1e7f7;
+}
+
+.fl_name {
+	font-family: monospace;
+}
+
+.info_cell{
+	padding-left: 30px
+}
+
+.details_div{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	box-shadow : 0 4px 8px 0 rgba(23, 16, 16, 0.5);
+	transition : 0.3s
+}
+
+.details_div:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.detail_head{
+	padding-left :4px;
+}
+.work_card{
+	padding : 4px;
+}
+
+.work_card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*Adapted from : https://stackoverflow.com/questions/52219136/how-to-draw-dashed-line-using-html-and-css */
+.line {
+	margin:5px 0;
+	height:2px;
+	background:
+	  repeating-linear-gradient(90deg,black 0 5px,#0000 0 7px)
+  }
